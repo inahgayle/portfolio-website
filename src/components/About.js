@@ -30,7 +30,7 @@ export default function About() {
           <div className="show-on-scroll animate-stop animate-fade animate-delay-500 
                           flex justify-center sm:pl-10">
             <a
-              href="https://github.com/inahgayle"
+              href="./CASTRO_RESUME_MAY2024.pdf"
               className="inline-flex 
                        bg-light-green hover:bg-dark-green dark:bg-lighter-green dark:hover:bg-light-green
                          border-0 py-1.5 px-4 rounded-lg
