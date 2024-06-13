@@ -4,7 +4,8 @@ Personal website built using React.js and Tailwind CSS.
 
 ## To-Do List
 
-- [ ] Add Skills section
+- [x] Add Skills section
+- [ ] Fix Navbar buttons on mobile
 - [ ] Improve responsive design
-- [ ] Improve code formatting
+- [x] Improve code formatting
 - [ ] Add mini-portfolio link
