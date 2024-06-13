@@ -1,7 +1,23 @@
 @tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 html {
     scroll-behavior: smooth;
 }
 
-@tailwind components;
-@tailwind utilities;
+.hc-chart {
+    filter: brightness(1);
+}
+
+.hc-marker:hover {
+    filter: brightness(1);
+}
+
+.hc-chart:hover .hc-marker:not(:hover) {
+    filter: brightness(0.75) blur(2px);
+}
+
+.hc-tooltip {
+    filter: brightness(1) !important;
+}

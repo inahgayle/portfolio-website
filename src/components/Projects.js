@@ -70,12 +70,15 @@ export default function Projects() {
           <img
             className="block dark:hidden object-contain object-center size-12"
             src="./leaf-light.png" 
+            alt=""
           />
           <img
             className="hidden dark:block object-contain object-center size-12"
             src="./leaf-dark.png"
+            alt=""
           />
-          <h1 className="sm:text-4xl text-3xl font-medium font-lilita title-font text-primary-green dark:text-light-green px-4">
+          <h1 className="px-4 font-medium font-lilita title-font 
+                      sm:text-4xl text-3xl text-primary-green dark:text-light-green">
             Projects
           </h1>
           <h1 className="flex-grow border-t-4 border-primary-green dark:border-light-green"></h1>
@@ -83,19 +86,25 @@ export default function Projects() {
 
         <div className="flex flex-row justify-center mb-8">
           <button 
-            className="filter-button sm:text-2xl text-xl font-medium text-darker-green hover:text-darker-green font-lilita bg-light-pink hover:bg-lighter-pink dark:bg-lighter-pink dark:hover:bg-lighter-pink px-4 py-0.5 mx-2 rounded-lg"
+            className="filter-button px-4 py-0.5 mx-2 rounded-lg
+                    bg-light-pink hover:bg-lighter-pink dark:bg-lighter-pink dark:hover:bg-lighter-pink
+                      font-lilita font-medium sm:text-2xl text-xl text-darker-green hover:text-darker-green"
             value="all"
             onClick={handleBtns}>
             All
           </button>
           <button 
-            className="filter-button sm:text-2xl text-xl font-medium text-darker-green hover:text-darker-green font-lilita bg-light-green hover:bg-lighter-pink dark:bg-lighter-green dark:hover:bg-lighter-pink px-4 py-0.5 mx-2 rounded-lg"
+            className="filter-button px-4 py-0.5 mx-2 rounded-lg
+                    bg-light-green hover:bg-lighter-pink dark:bg-lighter-green dark:hover:bg-lighter-pink
+                      font-lilita font-medium sm:text-2xl text-xl text-darker-green hover:text-darker-green"
             value="academic"
             onClick={handleBtns}>
             Academic
           </button>
           <button 
-            className="filter-button sm:text-2xl text-xl font-medium text-darker-green hover:text-darker-green font-lilita bg-light-green hover:bg-lighter-pink dark:bg-lighter-green dark:hover:bg-lighter-pink px-4 py-0.5 mx-2 rounded-lg"
+            className="filter-button px-4 py-0.5 mx-2 rounded-lg
+            bg-light-green hover:bg-lighter-pink dark:bg-lighter-green dark:hover:bg-lighter-pink
+              font-lilita font-medium sm:text-2xl text-xl text-darker-green hover:text-darker-green"
             value="personal"
             onClick={handleBtns}>
             Personal
@@ -117,7 +126,7 @@ export default function Projects() {
                     <p className="title-font font-medium font-lilita text-darker-green sm:text-2xl text-xl text-justify pb-3">
                       {project.title}
                     </p>
-                    <p className="text-md font-poppins text-darker-green text-justify">
+                    <p className="font-poppins text-md text-darker-green text-justify">
                       {project.description}
                     </p>
                   </div>  
@@ -128,21 +137,24 @@ export default function Projects() {
                     <a
                       href={project.link}
                       target="_blank"
-                      className="inline-flex text-darker-green hover:text-lightest-green font-poppins bg-light-green hover:bg-dark-green border-0 py-1.5 px-4  rounded-lg mr-3">
+                      className="inline-flex bg-light-green hover:bg-dark-green rounded-lg py-1.5 px-4 mr-3
+                                font-poppins text-darker-green hover:text-lightest-green ">
                       Live Site
                     </a> : null}
                   {project.github ?
                     <a
                       href={project.github}
                       target="_blank"
-                      className="inline-flex text-darker-green hover:text-lightest-green font-poppins bg-light-green hover:bg-dark-green border-0 py-1.5 px-4  rounded-lg">
+                      className="inline-flex bg-light-green hover:bg-dark-green rounded-lg py-1.5 px-4 mr-3
+                                font-poppins text-darker-green hover:text-lightest-green ">
                       GitHub Repo
                     </a> : null}
                 </div>
 
                 <div className="flex flex-row flex-wrap items-start px-6 pb-6">
                   {project.skills.map(skill => ( 
-                      <p className="font-poppins font-bold text-lighter-green sm:text-md text-sm bg-dark-green px-2 py-1 rounded-lg mr-2 mt-2">
+                      <p className="bg-dark-green px-2 py-1 rounded-lg mr-2 mt-2
+                                    font-poppins font-bold text-lighter-green sm:text-md text-sm">
                         {skill}</p>  
                   ))}
                 </div>

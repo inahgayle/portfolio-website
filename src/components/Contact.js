@@ -32,23 +32,26 @@ export default function Contact() {
         <div className="flex flex-row w-full mb-16 items-center">
           <img
             className="block dark:hidden object-contain object-center size-12"
-            src="./leaf-light.png" 
+            src="./flower-light.png"
+            alt="" 
           />
           <img
             className="hidden dark:block object-contain object-center size-12"
-            src="./leaf-dark.png"
+            src="./flower-dark.png"
+            alt=""
           />
-          <h1 className="sm:text-4xl text-3xl font-medium font-lilita title-font text-primary-green dark:text-light-green px-4">
+          <h1 className="font-lilita font-medium title-font sm:text-4xl text-3xl text-dark-pink dark:text-light-pink px-4">
             Contact
           </h1>
-          <h1 className="flex-grow border-t-4 border-primary-green dark:border-light-green"></h1>
+          <h1 className="flex-grow border-t-4 border-dark-pink dark:border-light-pink"></h1>
         </div>
         
-        <div className="lg:flex-grow flex flex-col md:items-center md:text-center mb-16 md:mb-0 items-center text-center">
-          <h1 className="title-font sm:text-6xl text-4xl mb-4 font-medium text-darker-green dark:text-lighter-green font-lilita">
+        <div className="lg:flex-grow flex flex-col mb-16 md:mb-0 items-center text-center">
+          <h1 className="title-font font-medium font-lilita mb-4
+                        sm:text-6xl text-4xl text-darker-pink dark:text-lighter-pink">
             Get in touch!
           </h1>
-          <p className="mb-8 md:w-1/2 leading-relaxed font-poppins text-dark-green dark:text-lighter-green">
+          <p className="mb-8 md:w-1/2 leading-relaxed font-poppins text-dark-pink dark:text-lighter-pink">
             I’m currently looking for new opportunities. Feel free to reach out via my inbox, 
             I’d love to hear from you!
           </p>
@@ -56,13 +59,13 @@ export default function Contact() {
 
         <div className="flex justify-center">
           <a href="mailto:iscastro@up.edu.ph">
-            <BsEnvelopeAtFill className="text-4xl text-primary-green hover:text-dark-green dark:text-lighter-green dark:hover:text-light-green mr-3"/>
+            <BsEnvelopeAtFill className="text-4xl text-dark-pink hover:text-darker-pink dark:text-lighter-pink dark:hover:text-primary-pink mr-3"/>
           </a>
           <a href="https://github.com/inahgayle" target="_blank">
-            <FaGithub className="text-4xl text-primary-green hover:text-dark-green dark:text-lighter-green dark:hover:text-light-green mr-3"/>
+            <FaGithub className="text-4xl text-dark-pink hover:text-darker-pink dark:text-lighter-pink dark:hover:text-primary-pink mr-3"/>
           </a>
           <a href="https://www.linkedin.com/in/inah-gayle-castro/" target="_blank">
-            <FaLinkedin className="text-4xl text-primary-green hover:text-dark-green dark:text-lighter-green dark:hover:text-light-green mr-3"/>
+            <FaLinkedin className="text-4xl text-dark-pink hover:text-darker-pink dark:text-lighter-pink dark:hover:text-primary-pink mr-3"/>
           </a>
         </div>
         {/* <form

@@ -37,34 +37,36 @@ module.exports = {
           '100%': { transform: 'rotate(6deg)' },
         },
         'video-games': {
-          '0%, 100%':   { transform: 'rotate(-6deg) translateY(-16px)' },
+          '0%, 100%':   { transform: 'rotate(-6deg) translateY(-20px)' },
           '50%':        { transform: 'rotate(-3deg) translateY(-8px) scale(1.15)' },
         },
         'video-games-wiggle': {
-          '0%, 100%':   { transform: 'rotate(-6deg) translateY(-16px)' },
-          '50%':        { transform: 'rotate(-16deg) translateY(-16px)' },
+          '0%, 100%':   { transform: 'rotate(-6deg) translateY(-20px)' },
+          '50%':        { transform: 'rotate(-16deg) translateY(-20px)' },
         },
         'kalimba': {
-          '0%, 100%':   { transform: 'rotate(-20deg) translate(70px)' },
-          '50%':        { transform: 'rotate(-10deg) translate(65px, -5px) scale(1.15)' },
+          '0%, 100%':   { transform: 'rotate(-20deg) translateX(10px)' },
+          '50%':        { transform: 'rotate(-10deg) translate(5px, -5px) scale(1.15)' },
         },
         'kalimba-wiggle': {
-          '0%, 100%':   { transform: 'rotate(-20deg) translate(70px)' },
-          '50%':        { transform: 'rotate(-10deg) translate(70px)' },
+          '0%, 100%':   { transform: 'rotate(-20deg) translateX(10px)' },
+          '50%':        { transform: 'rotate(-10deg) translateX(10px)' },
         },
         'crochet': {
-          '50%':        { transform: 'rotate(-3deg) translate(-5px, -12px) scale(1.15)' },
+          '0%, 100%':   { transform: 'translateX(-5px)' },
+          '50%':        { transform: 'rotate(-3deg) translate(-10px, -12px) scale(1.15)' },
         },
         'crochet-wiggle': {
-          '50%':        { transform: 'rotate(-10deg) translate(0)' },
+          '0%, 100%':   { transform: 'translateX(-5px)' },
+          '50%':        { transform: 'rotate(-10deg) translateX(-5px)' },
         },
         'graphic-design': {
-          '0%, 100%':   { transform: 'rotate(12deg) translate(-40px, -20px)' },
-          '50%':        { transform: 'rotate(6deg) translate(-35px, -10px) scale(1.15)' },
+          '0%, 100%':   { transform: 'rotate(12deg) translateY(-20px)' },
+          '50%':        { transform: 'rotate(6deg) translate(-5px, -10px) scale(1.15)' },
         },
         'graphic-design-wiggle': {
-          '0%, 100%':   { transform: 'rotate(12deg) translate(-40px, -20px)' },
-          '50%':        { transform: 'rotate(2deg) translate(-40px, -20px)' },
+          '0%, 100%':   { transform: 'rotate(12deg) translateY(-20px)' },
+          '50%':        { transform: 'rotate(2deg) translateY(-20px)' },
         },
         'click-mp': {
           '0%, 100%':   { transform: 'rotate(6deg) translate(-80px, -90px)' },

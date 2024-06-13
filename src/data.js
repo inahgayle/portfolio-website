@@ -1,3 +1,7 @@
+import { FaPython, FaReact, FaNodeJs, FaGitAlt, FaGithub } from "react-icons/fa";
+import { DiRuby } from "react-icons/di";
+import { SiC, SiJavascript, SiHtml5, SiCss3, SiRubyonrails, SiExpress, SiMongodb  } from "react-icons/si";
+
 export const experiences = [
   {
     company: "D.W. Morgan",
@@ -71,10 +75,82 @@ export const projects = [
 ];
 
 export const skills = [
-  "JavaScript",
-  "React",
-  "Next.js",
-  "Node",
-  "GraphQL",
-  "Material UI",
+  {
+    icon: <FaPython />,
+    name: 'Python',
+    type: 'Language',
+    value: 40
+  },
+  {
+    icon: <DiRuby />,
+    name: 'Ruby',
+    type: 'Language',
+    value: 40
+  },
+  {
+    icon: <SiC />,
+    name: 'C',
+    type: 'Language',
+    value: 40
+  },
+  {
+    icon: <FaReact />,
+    name: 'React.js',
+    type: 'Frontend',
+    value: 40
+  },
+  {
+    icon: <SiJavascript />,
+    name: 'JavaScript',
+    type: 'Frontend',
+    value: 40
+  },
+  {
+    icon: <SiHtml5 />,
+    name: 'HTML',
+    type: 'Frontend',
+    value: 40
+  },
+  {
+    icon: <SiCss3 />,
+    name: 'CSS',
+    type: 'Frontend',
+    value: 40
+  },
+  {
+    icon: <SiRubyonrails />,
+    name: 'Ruby on Rails',
+    type: 'Backend',
+    value: 40
+  },
+  {
+    icon: <FaNodeJs />,
+    name: 'Node.js',
+    type: 'Backend',
+    value: 40
+  },
+  {
+    icon: <SiExpress />,
+    name: 'Express.js',
+    type: 'Backend',
+    value: 40
+  },
+  {
+    icon: <SiMongodb />,
+    name: 'MongoDB',
+    type: 'Backend',
+    value: 40
+  },
+  {
+    icon: <FaGitAlt />,
+    name: 'Git',
+    type: 'Tool',
+    value: 40
+  },
+  {
+    icon: <FaGithub />,
+    name: 'GitHub',
+    type: 'Tool',
+    value: 40
+  },
 ];
